@@ -59,7 +59,7 @@ return [
                 'resources' => 'src/assets/js/equipo.js',
             ],
             '/eu/zerbitzuak' => [
-                'view' => 'productos.php',
+                'view' => 'servicios.php',
                 'resources' => 'src/assets/js/productos.js',
             ],
            
