@@ -81,11 +81,11 @@
         <!-- artículpo 06 -->
         
           <article class="art06">
-              <h2>Contactanos</h2>
+              <h2>Contáctanos</h2>
               <div>
                   <h3>Hagamos realidad tu Proyecto Digital</h3>
                   <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis, Zion libertatem defendit dum machinae mundum regunt.</p>
-                  <a href="#" title="" class="boton">CTA</a>
+                  <a href="#" title="" class="boton">Empieza tu Proyecto</a>
               </div>     
           </article>
 

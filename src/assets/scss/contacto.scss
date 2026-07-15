@@ -6,3 +6,60 @@
 @use "./resources/moduloLoader01";
 
 @use "./resources/artAcordeon01";
+
+/*.artForm02 > h2 {
+  color: c.$color02;
+  font-size:
+     clamp(1rem, 3vw, 2.5rem);
+}*/
+
+h2 {
+  color: c.$color02;
+  font-size:
+     clamp(1rem, 3vw, 2.5rem);
+}
+
+//Centrar el titulo
+.artForm02 > :nth-child(1) {
+    text-align: center;
+}
+
+//Distancia del titulo al formulario
+.artForm02 > h2 {
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: c.$tablet) {
+    .artForm02 > h2 {
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+.artAcordeon01 {
+
+    .contenedor {
+
+        .ficha {
+            min-height: 280px;
+
+            .mostrar {
+                margin-top: auto;
+            }
+        }
+    }
+
+        @media only screen and (min-width: c.$tablet) {
+
+        .artAcordeon01 {
+
+            .contenedor {
+
+                .ficha {
+                    min-height: 340px;
+                }
+            }
+        }
+    }
+
+}

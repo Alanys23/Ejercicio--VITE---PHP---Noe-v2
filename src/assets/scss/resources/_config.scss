@@ -73,7 +73,11 @@ $color033: #c8f3f0;
 $color04: #ffffff;
 $color05: #F3FBFA;
 $color06: #ff9f1c;
-$color06: #1a1a2e;
+$color07: #1a1a2e;
+
+$color034: #e8fbfa;
+$color035: #f0fcfb;
+$color036: #f7fefd;
 
 
 
@@ -101,6 +105,11 @@ html{
     font-style: italic;
 }
 
+
+
+main {
+    background-color: $color036;
+}
 
 // Aquí estilos de los encabezados h1, h2, h3, etc y de los textos
 h1, h2, h3{

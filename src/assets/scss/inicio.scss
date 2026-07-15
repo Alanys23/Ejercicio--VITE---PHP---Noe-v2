@@ -8,4 +8,75 @@
 @use "./resources/artForm02";
 @use "./resources/moduloLoader01";
 
+h2 {
+  color: c.$color06;
+  font-size: 1.5rem;
+}
 
+.art14 > div h3 {
+  font-size: clamp(1rem, 3vw, 2.5rem);
+}
+
+.art15 > :nth-child(1) h3 {
+  font-size: clamp(1rem, 3vw, 2.5rem);
+}
+
+/*.art06 >:nth-child(2){
+    font-size: clamp(1rem, 3vw, 2.5rem);
+}*/
+
+.art06 {
+  padding: 3rem c.$padMin; // reduce altura general (ajusta a tu gusto)
+}
+
+.art06 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+
+
+  @media only screen and (min-width: c.$tablet) {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-template-areas:
+      "titulo texto"
+      "boton  boton";
+    align-items: center;
+    justify-items: center;
+
+    width: 100%; // anula el 80% original
+    padding-top: 0; // anula el padding-top: 10rem original
+  }
+
+  @media only screen and (min-width: c.$desktop) {
+    width: 90%; // anula el 50% original, ajusta a tu gusto
+  }
+}
+
+.art06 > div > :nth-child(1) {
+  position: static;      // anula el position: absolute original
+  grid-area: titulo;
+  text-align: center;
+
+   @media only screen and (min-width: c.$tablet) {
+    font-size: clamp(1.2rem, 2.4vw, 2.2rem);
+  }
+}
+
+.art06 > div p {
+  grid-area: texto;
+  text-align: center;
+  width: 100%;
+
+ 
+}
+
+.art06 > div .boton {
+  grid-area: boton;
+  justify-self: center;
+
+    @media only screen and (min-width: c.$tablet) {
+         margin-top: 4rem;
+  }
+}
