@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/contacto') ?>">
-    <title>Contacta con nuestra panaderia</title>
+    <title>Contacta con nuestro equipo</title>
     <meta name="description" content="Contacta con nuestra panaderia para consultas, pedidos y encargos de panaderia y pasteleria.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,12 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+      <img class="header01__media" src="<?= asset('assets/img/views/hero_contacto.avif') ?>" alt="Escena de Matrix">
       <div class="header01__content">
-        <p class="header01__eyebrow">Header 01</p>
-        <h1>Contacto</h1>
-        <p class="header01__text">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
-        <a href="#showroom-recursos" class="boton">Ver recursos</a>
+        <p class="header01__eyebrow">Contacto</p>
+        <h1>Contacta con nuestro Equipo</h1>
+        <p class="header01__text">Estaremos encantados de conocer tu proyecto.</p>
+        <a href="#showroom-recursos" class="boton">Empieza tu proyecto</a>
       </div>
     </header>
 
@@ -29,13 +29,11 @@
         <!-- artForm02 ajax -->
         <article class="artForm02">          
 
-            <h2>Contacta con nosotros</h2>
+            <h2>Cuéntanos tu Proyecto</h2>
             <div>
                 <div class="contenedor-form">
                 
-                <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">
-                                
-
+                <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">                                
                 <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
                 <div id="modal_envio">
                     <!-- nuestro modal con html y css -->
@@ -187,41 +185,41 @@
         <article class="artAcordeon01">
           <div class="cabecera">
             <div>
-              <h3>Lo que suelen preguntarnos</h3>
-              <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
-              <p>Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem. Trinity navigat dum Agent Smith codicem custodit.</p>
+              <h2>Tus preguntas, nuestras respuestas</h2>
+              <p>Respuestas a las preguntas más comunes sobre nuestros servicios.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad vel est quam porro fugit qui maxime, tenetur et sequi dignissimos! Ad minus, veniam deleniti culpa molestias quis fugiat doloremque..</p>
             </div>
-            <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/fichaContacto.avif') ?>" alt="Personas en contacto">
           </div>
           <div class="contenedor">
             <div class="ficha">
-              <h4>Matrix quaestio 01</h4>
-              <p class="respuesta">Matrix ipsum dolor sit amet. Neo eligendi pillulam rubram et veritatem post codicem invenit.</p>
+              <h3>¿Qué servicios ofrecemos?</h3>
+              <p class="respuesta">Nos especializamos en la creación de sitios web a medida para empresas españolas: diseño, desarrollo, SEO y mantenimiento. Cada proyecto se construye desde cero, sin plantillas, integrando Sanity CMS para que puedas editar tu contenido de forma autónoma.</p>
               <span class="mostrar boton">Mostrar más</span>
             </div>
             <div class="ficha">
-              <h4>Matrix quaestio 02</h4>
-              <p class="respuesta">Morpheus quaerat optionem et simulacrum aperit. Machinae codicem regunt, sed Zion resistit.</p>
+              <h3>Mi empresa es pequeña,¿vuestras soluciones son adaptadas?</h3>
+              <p class="respuesta">Totalmente. Nuestro plan Esencial comienza en 700€ y está diseñado específicamente para autónomos y pequeños comercios. Adaptamos cada solución a tu realidad, sin funcionalidades superfluas.</p>
               <span class="mostrar boton">Mostrar más</span>
             </div>
             <div class="ficha">
-              <h4>Matrix quaestio 03</h4>
-              <p class="respuesta">Trinity per systema navigat, dum Neo leges simulacri mutare discit.</p>
+              <h3>¿Qué resultados concretos puedo esperar</h3>
+              <p class="respuesta">Sitios rápidos (PageSpeed 90+), posicionamiento en Google para búsquedas locales, tasas de conversión mejoradas gracias a un diseño orientado a acción, y plena autonomía para gestionar tu contenido.</p>
               <span class="mostrar boton">Mostrar más</span>
             </div>
             <div class="ficha">
-              <h4>Matrix quaestio 04</h4>
-              <p class="respuesta">Agent Smith recusandae libertatem et multiplicat se intra Matrix.</p>
+              <h3>No me siento cómodo con la tecnología.¿es un problema?</h3>
+              <p class="respuesta">En absoluto. Nuestro enfoque es vulgarizar la tecnología y hacerla accesible. Cada entrega incluye una guía de uso de Sanity Studio y estamos disponibles para responder tus preguntas.</p>
               <span class="mostrar boton">Mostrar más</span>
             </div>
             <div class="ficha">
-              <h4>Matrix quaestio 05</h4>
-              <p class="respuesta">Oraculum responsum non imponit; electio viam ante Neo revelat.</p>
+              <h3>¿Continúa el acompañamiento después del proyecto?</h3>
+              <p class="respuesta">Los bugs de nuestro código se corrigen gratuitamente durante los 30 días siguientes a la entrega. Para mantenimiento recurrente o nuevas funcionalidades, trabajamos con presupuestos puntuales adaptados a tu necesidad.</p>
               <span class="mostrar boton">Mostrar más</span>
             </div>
             <div class="ficha">
-              <h4>Matrix quaestio 06</h4>
-              <p class="respuesta">Zion vigilat et homines contra machinas ultimam realitatem defendunt.</p>
+              <h3>¿Qué pasa si tengo una Página Web hecha?</h3>
+              <p class="respuesta">Podemos auditarla y proponerte un rediseño por fases sin perder SEO. También podemos sólo encargarnos del mantenimiento.</p>
               <span class="mostrar boton">Mostrar más</span>
             </div>
           </div>

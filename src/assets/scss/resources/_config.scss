@@ -21,10 +21,35 @@
     src: url('../../fonts/Montserrat-Regular.ttf');
 }
 
+//MIS FUENTES
+
+@font-face {
+  font-family: 'Michroma';
+  src: url('../../fonts/Michroma-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway' ;
+  src: url('../../fonts/Raleway-VariableFont_wght.ttf');
+  
+}
+
+@font-face {
+  font-family: 'RalewayItalic' ;
+  src: url('../../fonts/Raleway-Italic-VariableFont_wght.ttf');
+  
+}
 
 // Variables del proyecto
-$fuenteTitulos:'Montserrat';
-$fuenteTextos:'Montserrat';
+//$fuenteTitulos:'Montserrat';
+//$fuenteTextos:'Montserrat';
+
+$fuenteTitulos: 'Michroma';
+$fuenteTextos:'Raleway';
+
+$fuenteText: 'Michroma';
+$fuenteHeaders: 'Raleway';
+$fuenteHeaders2: 'RalewayItalic';
 
 
 
@@ -39,6 +64,16 @@ $color02bis: #234b66;
 $color02svg: invert(24%) sepia(13%) saturate(2279%) hue-rotate(161deg) brightness(96%) contrast(88%);
 $color03: #d47523;
 $color03svg: invert(39%) sepia(100%) saturate(384%) hue-rotate(346deg) brightness(102%) contrast(91%);
+
+
+//MIS COLORES
+$color01: #000000;
+$color022: #2ec4b6;
+$color033: #c8f3f0;
+$color04: #ffffff;
+$color05: #F3FBFA;
+$color06: #ff9f1c;
+$color06: #1a1a2e;
 
 
 

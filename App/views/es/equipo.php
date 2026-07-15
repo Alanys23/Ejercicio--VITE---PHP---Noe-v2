@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/quienes-somos') ?>">
-    <title>Nuestro equipo de panaderos y pasteleros</title>
+    <title>Nuestro equipo de programadores</title>
     <meta name="description" content="Conoce al equipo de panaderos y pasteleros que trabaja cada dia en nuestro obrador.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,11 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+      <img class="header01__media" src="<?= asset('assets/img/views/hero-equipo.avif') ?>" alt="Escena de Matrix">
       <div class="header01__content">
-        <p class="header01__eyebrow">Header 01</p>
-        <h1>Showroom de resources</h1>
-        <p class="header01__text">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+        <p class="header01__eyebrow">Equipo</p>
+        <h1>Quiénes somos</h1>
+        <p class="header01__text">No somos solo programadores; somos tu aliado estratégico para alcanzar la excelencia operativa.</p>
         <a href="#showroom-recursos" class="boton">Ver recursos</a>
       </div>
     </header>
@@ -29,42 +29,42 @@
          <!-- El equipo -->
         <!-- Artículo 12 -->
           <article class="art12">
-              <h3>Nuestro Equipo</h3>
-              <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
+              <h2>Conoce a nuestro Equipo</h2>
+              <p>Un equipo multidisciplinar apasionado por crear soluciones digitales excepcionales.</p>
               <div>
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/worker1.avif') ?>" alt="Programadora sonriendo" title="">
                   <div>
-                      <h4>Matrix ipsum 01</h4>
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <p>Neo veritatem eligit.</p>
+                      <h3>Lorena M.</h3>
+                      <p>CEO & Fundadora</p>
+                      <p>10+ años liderando equipos de desarrollo. Apasionada por la arquitectura de software escalable.</p>
                   </div>
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/worker2.avif') ?>" alt=Programador sonriendo" title="">
                   <div>
-                      <h4>Matrix ipsum 02</h4>
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Morpheus quaerat optionem.</p>
-                      <p>Pillula rubra aperit.</p>
+                      <h3>Roberto p.</h3>
+                      <p>CTO & Fundador</p>
+                      <p>Experto en arquitecturas cloud y DevOps. Líder técnico de proyectos complejos.</p>
                   </div>
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/worker3.avif') ?>" alt="Escena de Matrix" title="">
                   <div>
-                      <h4>Matrix ipsum 03</h4>
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <p>Zion libertatem defendit.</p>
+                      <h3>Marco T.</h3>
+                      <p>Lead Developer</p>
+                      <p>Especialista en frontend moderno y UX. Crea experiencias digitales excepcionales.</p>
                   </div>
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/worker4.avif') ?>" alt="Escena de Matrix" title="">
                   <div>
-                      <h4>Matrix ipsum 04</h4>
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <p>Systema simulacrum celat.</p>
+                      <h3>Anatol G.</h3>
+                      <p>Backend Engineer</p>
+                      <p>Maestro de APIs y bases de datos. Construye sistemas robustos y escalables.</p>
                   </div>
                   </div>
               </div>
@@ -73,28 +73,28 @@
       </section>
      
       <section>
-          <h3>Nuestra Filosofía</h3>
+          <h2>Nuestra Filosofía</h2>
          <!-- ModulePersonal01 -->
           <div class="modulePersonal01">
             <div>
               <img src="<?= asset('assets/img/icons/truck.svg') ?>" alt="">
-              <h4>modulePersonal01 · Item 01</h4>
+              <h3>modulePersonal01 · Item 01</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/tools.svg') ?>" alt="">
-              <h4>modulePersonal01 · Item 02</h4>
+              <h3>modulePersonal01 · Item 02</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/clip.svg') ?>" alt="">
-              <h4>modulePersonal01 · Item 03</h4>
+              <h3>modulePersonal01 · Item 03</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/bag.svg') ?>" alt="">
-              <h4>modulePersonal01 · Item 04</h4>
+              <h3>modulePersonal01 · Item 04</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/money.svg') ?>" alt="">
-              <h4>modulePersonal01 · Item 05</h4>
+              <h3>modulePersonal01 · Item 05</h3>
             </div>
           </div>
       </section>
@@ -104,33 +104,33 @@
           <!-- Lo que opinnan de nosotros -->
           <!-- artículo 4 -->
           <article class="art04">
-              <h3>Lo que opinan de nosotros</h3>
+              <h2>Lo que opinan de nosotros</h2>
               <span class="ralla"></span>
               <div class="contenedor-fichas">
                   <div class="ficha">
-                      <h4>Matrix ipsum 01</h4>
-                      <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" title="">                        
+                      <h3>Karolina Macedo</h3>
+                      <img src="<?= asset('assets/img/views/test44.avif') ?>" alt="Mujer sonriendo" title="">                        
                       <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
                       <span class="ralla"></span>
                   </div>
 
                   <div class="ficha">
-                      <h4>Matrix ipsum 02</h4>
-                      <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix" title="">                        
+                      <h3>Carlos Ubarrechena</h3>
+                      <img src="<?= asset('assets/img/views/tes2.avif') ?>" alt="Hombre sonriendo" title="">                        
                       <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Morpheus quaerat optionem et realitatem.</p>
                       <span class="ralla"></span>
                   </div>
 
                   <div class="ficha">
-                      <h4>Matrix ipsum 03</h4>
-                      <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix" title="">                        
+                      <h3>Fernanda Manterola</h3>
+                      <img src="<?= asset('assets/img/views/test3.avif') ?>" alt="Mujer sonriendo" title="">                        
                       <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis et systema.</p>
                       <span class="ralla"></span>
                   </div>
 
                   <div class="ficha">
-                      <h4>Matrix ipsum 04</h4>
-                      <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">                        
+                      <h3>Roberto Castro</h3>
+                      <img src="<?= asset('assets/img/views/tes1.avif') ?>" alt="Hombre sonriendo" title="">                        
                       <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Zion libertatem defendit contra machinas.</p>
                       <span class="ralla"></span>
                   </div>

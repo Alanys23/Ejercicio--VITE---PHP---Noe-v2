@@ -34,7 +34,7 @@
           <div class="content">
             <h3>Programadores que diseñan tu Éxito Digital</h3>
             <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem. Agent Smith recusandae Zion, dum machinae architecto mundum regunt et Trinity viam demonstrat.</p>
-            <img src="<?= asset('assets/img/views/programacion.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/developer-pointing.avif') ?>" alt="Programador apuntando">
           </div>
         </article>
       </section>
@@ -83,7 +83,7 @@
           <article class="art06">
               <h2>Contactanos</h2>
               <div>
-                  <h3>Háblanos de tu próxima Proyecto</h3>
+                  <h3>Hagamos realidad tu Proyecto Digital</h3>
                   <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis, Zion libertatem defendit dum machinae mundum regunt.</p>
                   <a href="#" title="" class="boton">CTA</a>
               </div>     
