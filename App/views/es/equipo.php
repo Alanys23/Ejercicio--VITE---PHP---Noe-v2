@@ -78,23 +78,23 @@
           <div class="modulePersonal01">
             <div>
               <img src="<?= asset('assets/img/icons/truck.svg') ?>" alt="">
-              <h3>modulePersonal01 · Item 01</h3>
+              <h3>Soporte Continuo</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/tools.svg') ?>" alt="">
-              <h3>modulePersonal01 · Item 02</h3>
+              <h3>Atención Personalizada</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/clip.svg') ?>" alt="">
-              <h3>modulePersonal01 · Item 03</h3>
+              <h3>Transparencia Total</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/bag.svg') ?>" alt="">
-              <h3>modulePersonal01 · Item 04</h3>
+              <h3>Desarrollo a Medida</h3>
             </div>
             <div>
               <img src="<?= asset('assets/img/icons/money.svg') ?>" alt="">
-              <h3>modulePersonal01 · Item 05</h3>
+              <h3>Resultados Medibles</h3>
             </div>
           </div>
       </section>
@@ -110,21 +110,21 @@
                   <div class="ficha">
                       <h3>Karolina Macedo</h3>
                       <img src="<?= asset('assets/img/views/test44.avif') ?>" alt="Mujer sonriendo" title="">                        
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+                      <p>"La implementación de su arquitectura SaaS transformó nuestra operatividad global en cuestión de meses. Un nivel de detalle técnico impresionante."</p>
                       <span class="ralla"></span>
                   </div>
 
                   <div class="ficha">
                       <h3>Carlos Ubarrechena</h3>
                       <img src="<?= asset('assets/img/views/tes2.avif') ?>" alt="Hombre sonriendo" title="">                        
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Morpheus quaerat optionem et realitatem.</p>
+                      <p>"No solo entregan software, entregan una visión estratégica. Son el socio tecnológico que toda startup de alto crecimiento necesita."</p>
                       <span class="ralla"></span>
                   </div>
 
                   <div class="ficha">
                       <h3>Fernanda Manterola</h3>
                       <img src="<?= asset('assets/img/views/test3.avif') ?>" alt="Mujer sonriendo" title="">                        
-                      <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis et systema.</p>
+                      <p>"La capacidad de Pistacho Digital para escalar soluciones complejas sin comprometer la elegancia del código es simplemente excepcional."</p>
                       <span class="ralla"></span>
                   </div>
 
