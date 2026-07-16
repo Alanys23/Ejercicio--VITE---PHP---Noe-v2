@@ -79,7 +79,20 @@ $color034: #e8fbfa;
 $color035: #f0fcfb;
 $color036: #f7fefd;
 
+$colorbot1: #1f6f5c;
+$colorbot2: #3c6e5c;
+$colorbot3: #2f9e7a;
 
+$colorbot4: #1f6f7a;
+$colorbot5: #1d8a8f;
+$colorboton6: #136e73;
+
+
+$colorbotna1: #e8720c;
+$colorbotna2: #e06a00;
+$colorbotonformulario: #d85f00;
+$colorbotonformulariosvg: invert(34%) sepia(83%) saturate(2350%) hue-rotate(17deg) brightness(99%) contrast(101%);
+$colorfondoacordeon:#f5f5f5;
 
 $tablet: 800px;
 $desktop: 1200px;
@@ -181,7 +194,8 @@ a{
 .boton{
     padding: 0.7rem 4rem;
     color: $color00;  
-    background-color: $color02;
+    //background-color: $color02;
+    background-color: $colorboton6;
     border-radius: 5px;
     letter-spacing: 3px;
     font-weight: 600;
@@ -189,8 +203,8 @@ a{
     transition: 0.3s;
     &:hover{
         background-color: $color00;
-        color:$color02;
-        border-color: $color02;
+        color:$colorboton6;
+        border-color: $colorboton6;
     }
     &:active{
         transform: scale(0.95);

@@ -35,9 +35,32 @@ h2 {
     }
 }
 
+.artForm02 > div .contenedor-form {
+  background-color: c.$colorboton6;
+}
+
+.artForm02 label {
+  font-weight: 450;
+}
+
+.artForm02 > div > .contenedor-info ul li a {
+    span { color: c.$color01; }
+    img { filter: c.$colorbotonformulariosvg; }
+}
 
 .artAcordeon01 {
 
+     .cabecera {
+
+        > :nth-child(1) {
+
+            > p:nth-of-type(2) {
+                text-align: justify;
+            }
+
+        }
+
+    }
     .contenedor {
 
         .ficha {
@@ -62,4 +85,19 @@ h2 {
         }
     }
 
+}
+
+.artAcordeon01 .contenedor .ficha {
+    background-color: c.$colorfondoacordeon;
+}
+
+
+//cambiar boton a naranja
+#botonEnviarAjax {
+  background-color: c.$colorbotonformulario; // o el naranja que confirmes
+  &:hover {
+    background-color: c.$color00;
+    color: c.$colorbotonformulario;
+    border-color: c.$colorbotonformulario;
+  }
 }

@@ -9,7 +9,7 @@
 @use "./resources/moduloLoader01";
 
 h2 {
-  color: c.$color06;
+  color: c.$colorbotonformulario;
   font-size: 1.5rem;
 }
 
@@ -26,8 +26,16 @@ h2 {
 }*/
 
 .art06 {
-  padding: 3rem c.$padMin; // reduce altura general (ajusta a tu gusto)
+  padding: 3rem c.$padMin; // reduce altura
+  background-color: c.$color07;
+
+   > h2 {
+        color: c.$color06; // el color que quieras
+    }
+  
 }
+
+
 
 .art06 > div {
   display: flex;
@@ -79,4 +87,8 @@ h2 {
     @media only screen and (min-width: c.$tablet) {
          margin-top: 4rem;
   }
+}
+
+section:has(> .art06) {
+  padding-bottom: 0;
 }
