@@ -32,7 +32,9 @@
         <img class="enlaces01__icon" src="<?= asset('assets/img/icons/cubenav-outline.svg') ?>" alt="">
         <span>Servicios</span>
       </a>
-      <button class="enlaces01__submenuToggle" type="button" aria-controls="<?= e($idSubmenu) ?>" aria-expanded="false" aria-label="Abrir submenú Servicios" data-nav01-submenu-toggle data-nav01-label-open="Abrir submenú" data-nav01-label-close="Cerrar submenú" data-nav01-submenu-label="Servicios">
+
+      
+      <!--<button class="enlaces01__submenuToggle" type="button" aria-controls="<?= e($idSubmenu) ?>" aria-expanded="false" aria-label="Abrir submenú Servicios" data-nav01-submenu-toggle data-nav01-label-open="Abrir submenú" data-nav01-label-close="Cerrar submenú" data-nav01-submenu-label="Servicios">
         <img class="enlaces01__chevron" src="<?= asset('assets/img/icons/chevron.svg') ?>" alt="">
       </button>
     </div>
@@ -51,7 +53,7 @@
         </a>
       </li>
     </ul>
-  </li>
+  </li>-->
 
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="/showroom">

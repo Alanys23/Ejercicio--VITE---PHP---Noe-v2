@@ -187,7 +187,7 @@
             <div>
               <h2>Tus preguntas, nuestras respuestas</h2>
               <p>Respuestas a las preguntas más comunes sobre nuestros servicios.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad vel est quam porro fugit qui maxime, tenetur et sequi dignissimos! Ad minus, veniam deleniti culpa molestias quis fugiat doloremque..</p>
+              <p>Trabajamos codo a codo contigo en cada fase del proyecto, desde la primera idea hasta la puesta en marcha. Nos adaptamos a tu presupuesto y a tus plazos, sin renunciar a la calidad ni al detalle. Si tienes dudas sobre cómo empezar, contáctanos y te asesoramos sin compromiso.</p>
             </div>
             <img src="<?= asset('assets/img/views/fichaContacto.avif') ?>" alt="Personas en contacto">
           </div>

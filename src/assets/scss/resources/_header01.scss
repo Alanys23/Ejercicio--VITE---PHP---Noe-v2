@@ -11,6 +11,14 @@
   display: grid;
   place-items: center;
 
+  align-items: start; // solo mueve el CONTENIDO (grid item), no afecta el fondo
+  padding-top: 12rem;
+
+    @media only screen and (min-width: c.$tablet) {
+    align-items: center;
+    padding-top: 7rem;
+  }
+
   &::after {
     content: "";
     position: absolute;

@@ -33,7 +33,7 @@
         <article class="art14">
           <div class="content">
             <h3>Programadores que diseñan tu Éxito Digital</h3>
-            <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem. Agent Smith recusandae Zion, dum machinae architecto mundum regunt et Trinity viam demonstrat.</p>
+            <p>Somos una pequeña empresa de programadores y nos encanta serlo, ya que nos permite ofrecer un trato personalizado, cercano y 100% profesional a nuestros clientes, ofreciendo calidad, compromiso y presupuestos a medida. Nos encanta formar parte e implicarnos en el proyecto del cliente y hacerlo realidad juntos, como si fuera nuestro, asesorándolo para conseguir la mejor relación calidad-precio en su proyecto.</p>
             <img src="<?= asset('assets/img/views/developer-pointing.avif') ?>" alt="Programador apuntando">
           </div>
         </article>
@@ -49,8 +49,8 @@
           
           <div>
             <h3>Servicios de Aplicaciones Web y Software con propuesta de valor</h3>
-            <p>Matrix ipsum dolor sit amet. Neo eligendi veritatis codicem et simulacrum.</p>
-            <p>Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem. Agent Smith custodit Matrix, sed Trinity et Neo per codicem navigant. Zion resistit machinis dum oraculum responsum revelat.</p>
+            <p>Somos un estudio de Web & Software dedicados a desarrollar páginas web, tiendas on-line y software a medida.</p>
+            <p>Somos una pequeña empresa y nos encanta serlo, ya que nos permite ofrecer un trato personalizado y cercano a nuestros clientes, ofreciendo calidad, compromiso y presupuestos a medida. Nos encanta formar parte e implicarnos en el proyecto del cliente y hacerlo realidad juntos, como si fuera nuestro, asesorándolo para conseguir la mejor relación calidad-precio en su proyecto.</p>
           </div>
 
           <div>
@@ -84,7 +84,7 @@
               <h2>Contáctanos</h2>
               <div>
                   <h3>Hagamos realidad tu Proyecto Digital</h3>
-                  <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis, Zion libertatem defendit dum machinae mundum regunt.</p>
+                  <p>Explícanos qué quieres construir. Si encajamos, te proponemos cómo abordarlo. Podemos ayudarte a definirla, diseñarla y construir una primera versión sólida. Cuéntanos en una línea quién eres y qué quieres construir.</p>
                   <a href="#" title="" class="boton">Empieza tu Proyecto</a>
               </div>     
           </article>

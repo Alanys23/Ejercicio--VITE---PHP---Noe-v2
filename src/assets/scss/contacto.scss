@@ -19,6 +19,10 @@ h2 {
      clamp(1rem, 3vw, 2.5rem);
 }
 
+section:has(> .artForm02) {
+  padding-bottom: 0;
+}
+
 //Centrar el titulo
 .artForm02 > :nth-child(1) {
     text-align: center;
@@ -37,30 +41,78 @@ h2 {
 
 .artForm02 > div .contenedor-form {
   background-color: c.$colorboton6;
+  order: 1;
 }
 
-.artForm02 label {
-  font-weight: 450;
+.artForm02 > div .contenedor-info {
+  order: 2; 
 }
+
 
 .artForm02 > div > .contenedor-info ul li a {
     span { color: c.$color01; }
     img { filter: c.$colorbotonformulariosvg; }
 }
 
+
+
+.artForm02 label {
+  font-weight: 450;
+  color: c.$color00; // blanco
+}
+
+#num1ajax,
+#operadorajax,
+#num2ajax {
+  color: c.$color00; // blanco
+}
+
 .artAcordeon01 {
 
      .cabecera {
 
+        @media only screen and (min-width: c.$tablet) {
+            column-gap: 5rem;
+            }
+
         > :nth-child(1) {
+
+            align-items: center; // 👈 centra TODOS los hijos como bloque, en cualquier pantalla
+
+            p:first-of-type {
+                text-align: center;
+                font-style: italic;
+                font-weight: 500;
+                }
 
             > p:nth-of-type(2) {
                 text-align: justify;
             }
 
+            h2{
+                text-align: center;
+
+                    @media only screen and (min-width: c.$tablet) {
+                    max-width: 18ch; // 👈 esto se mueve DENTRO del media, solo tablet+
+                    }
+                }
+
+             @media only screen and (min-width: c.$tablet) {
+                width: 60%;
+                }
         }
 
+        > :nth-child(1) p:nth-of-type(2) {
+            line-height: c.$entre1ineas; // más separación, solo para este párrafo
+            }
+        > img {                            // 👈 nuevo: compensa el ancho
+            @media only screen and (min-width: c.$tablet) {
+                width: 40%;
+            }
+        }
     }
+
+
     .contenedor {
 
         .ficha {
@@ -89,6 +141,10 @@ h2 {
 
 .artAcordeon01 .contenedor .ficha {
     background-color: c.$colorfondoacordeon;
+
+    p {
+        text-align: justify;
+    }
 }
 
 
