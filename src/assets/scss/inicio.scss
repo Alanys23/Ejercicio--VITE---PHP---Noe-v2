@@ -3,7 +3,7 @@
 
 @use "./resources/header01";
 @use "./resources/art14";
-@use "./resources/art06";
+//@use "./resources/art06";
 @use "./resources/art15";
 @use "./resources/artForm02";
 @use "./resources/moduloLoader01";
@@ -41,7 +41,7 @@ p{
     font-size: clamp(1rem, 3vw, 2.5rem);
 }*/
 
-.art06 {
+/*.art06 {
   padding: 3rem c.$padMin; // reduce altura
   background-color: c.$color07;
   row-gap: 2rem; //acorta el espacio en mobile (antes 5rem)
@@ -122,6 +122,12 @@ p{
   }
 }
 
+section:has(> .art06) {
+  padding-bottom: 0;
+}
+
+*/
+
 section:has(> .art14),
 section:has(> .art15) {
   padding-bottom: 0;
@@ -136,6 +142,3 @@ section:has(> .art15) {
 }
 
 
-section:has(> .art06) {
-  padding-bottom: 0;
-}

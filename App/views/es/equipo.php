@@ -77,19 +77,19 @@
          <!-- ModulePersonal01 -->
           <div class="modulePersonal01">
             <div>
-              <img src="<?= asset('assets/img/icons/truck.svg') ?>" alt="">
+              <img src="<?= asset('assets/img/icons/telephone-in-solid.svg') ?>" alt="">
               <h3>Soporte Continuo</h3>
             </div>
             <div>
-              <img src="<?= asset('assets/img/icons/tools.svg') ?>" alt="">
+              <img src="<?= asset('assets/img/icons/people-outline.svg') ?>" alt="">
               <h3>Atención Personalizada</h3>
             </div>
             <div>
-              <img src="<?= asset('assets/img/icons/clip.svg') ?>" alt="">
+              <img src="<?= asset('assets/img/icons/ribbon.svg') ?>" alt="">
               <h3>Transparencia Total</h3>
             </div>
             <div>
-              <img src="<?= asset('assets/img/icons/bag.svg') ?>" alt="">
+              <img src="<?= asset('assets/img/icons/tools.svg') ?>" alt="">
               <h3>Desarrollo a Medida</h3>
             </div>
             <div>
@@ -109,6 +109,7 @@
               <div class="contenedor-fichas">
                   <div class="ficha">
                       <h3>Karolina Macedo</h3>
+                      <p class="empresa">Nébula Tech</p>
                       <img src="<?= asset('assets/img/views/test44.avif') ?>" alt="Mujer sonriendo" title="">                        
                       <p>"La implementación de su arquitectura SaaS transformó nuestra operatividad global en cuestión de meses. Un nivel de detalle técnico impresionante."</p>
                       <span class="ralla"></span>
@@ -116,6 +117,7 @@
 
                   <div class="ficha">
                       <h3>Carlos Ubarrechena</h3>
+                      <p class="empresa">Vórtice Studio</p>
                       <img src="<?= asset('assets/img/views/tes2.avif') ?>" alt="Hombre sonriendo" title="">                        
                       <p>"No solo entregan software, entregan una visión estratégica. Son el socio tecnológico que toda startup de alto crecimiento necesita."</p>
                       <span class="ralla"></span>
@@ -123,6 +125,7 @@
 
                   <div class="ficha">
                       <h3>Fernanda Manterola</h3>
+                      <p class="empresa">Arcadia Software</p>
                       <img src="<?= asset('assets/img/views/test3.avif') ?>" alt="Mujer sonriendo" title="">                        
                       <p>"La capacidad de Pistacho Digital para escalar soluciones complejas sin comprometer la elegancia del código es simplemente excepcional."</p>
                       <span class="ralla"></span>
@@ -130,6 +133,7 @@
 
                   <div class="ficha">
                       <h3>Roberto Castro</h3>
+                      <p class="empresa">Kairos Digital</p>
                       <img src="<?= asset('assets/img/views/tes1.avif') ?>" alt="Hombre sonriendo" title="">                        
                       <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Zion libertatem defendit contra machinas.</p>
                       <span class="ralla"></span>
@@ -140,7 +144,8 @@
 
       </section>
   
-     
+        
+      <?php require app_path('includes/es/contacto_cta.php'); ?>
 
     </main>
 
