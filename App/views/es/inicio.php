@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/') ?>">
-    <title>SoftwarePremium</title>
-    <meta name="description" content="Panaderia y pasteleria artesana con panes, bolleria y productos recien hechos.">
+    <title>EmporiumDigital</title>
+    <meta name="description" content="Contacta con el equipo de Emporium Digital para hablar de tu proyecto de software a medida.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -15,7 +15,7 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/views/programacion.avif') ?>" alt="Escena de Matrix">
+      <img class="header01__media" src="<?= asset('assets/img/views/programacion.avif') ?>" alt="Equipo de Emporium Digital programando software a medida" loading="eager" fetchpriority="high">
       <div class="header01__content">
         <p class="header01__eyebrow">Estudio de Diseño de Software</p>
         <h1>Software a medida</h1>
@@ -34,7 +34,7 @@
           <div class="content">
             <h3>Programadores que diseñan tu Éxito Digital</h3>
             <p>Somos una pequeña empresa de programadores y nos encanta serlo, ya que nos permite ofrecer un trato personalizado, cercano y 100% profesional a nuestros clientes, ofreciendo calidad, compromiso y presupuestos a medida. Nos encanta formar parte e implicarnos en el proyecto del cliente y hacerlo realidad juntos, como si fuera nuestro, asesorándolo para conseguir la mejor relación calidad-precio en su proyecto.</p>
-            <img src="<?= asset('assets/img/views/developer-pointing.avif') ?>" alt="Programador apuntando">
+            <img src="<?= asset('assets/img/views/developer-pointing.avif') ?>" alt="Programador de Emporium Digital presentando una solución de software" loading="lazy" width="600" height="600">
           </div>
         </article>
       </section>
@@ -57,19 +57,19 @@
             <a href="" class="item">
               <h4>Programacion Multiplataforma</h4>
               <p>Neo eligendi veritatis codicem, dum pillula rubra realitatem aperit.</p>
-              <img src="<?= asset('assets/img/views/card1.avif') ?>" alt="Varios programadores" width="700" height="700">              
+              <img src="<?= asset('assets/img/views/card1.avif') ?>" alt="Servicio de programación multiplataforma en Emporium Digital" width="700" height="700" loading="lazy">              
             </a>
 
             <a href="" class="item">
               <h4>Servicio de posicionamiento SEO</h4>
               <p>Morpheus quaerat optionem et Trinity per simulacrum navigat.</p>
-              <img src="<?= asset('assets/img/views/card3.avif') ?>" alt="Programador con 3 monitores">
+              <img src="<?= asset('assets/img/views/card3.avif') ?>" alt="Servicio de posicionamiento SEO en Emporium Digital" width="700" height="700" loading="lazy">
             </a>
             
             <a href="" class="item">
               <h4>Data-ERP</h4>
               <p>Agent Smith codicem custodit, sed Zion machinis resistit.</p>
-              <img src="<?= asset('assets/img/views/card2.avif') ?>" alt="">
+              <img src="<?= asset('assets/img/views/card2.avif') ?>" alt="Servicio de gestión de datos y ERP en Emporium Digital" width="700" height="700" loading="lazy">
             </a>
           </div>
 

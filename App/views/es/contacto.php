@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/contacto') ?>">
-    <title>Contacta con nuestro equipo</title>
-    <meta name="description" content="Contacta con nuestra panaderia para consultas, pedidos y encargos de panaderia y pasteleria.">
+    <title>Contacta con Emporium Digital | Consultoría de Software</title>
+    <meta name="description" content="Contacta con el equipo de Emporium Digital para hablar de tu proyecto de software a medida.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -14,12 +14,12 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/views/hero_contacto.avif') ?>" alt="Escena de Matrix">
+      <img class="header01__media" src="<?= asset('assets/img/views/hero_contacto.avif') ?>" alt="Equipo de Emporium Digital atendiendo consultas de clientes" loading="eager" fetchpriority="high">
       <div class="header01__content">
         <p class="header01__eyebrow">Contacto</p>
         <h1>Contacta con nuestro Equipo</h1>
         <p class="header01__text">Estaremos encantados de conocer tu proyecto.</p>
-        <a href="#showroom-recursos" class="boton">Empieza tu proyecto</a>
+        <a href="#showroom-recursos" class="boton">Contáctanos</a>
       </div>
     </header>
 
@@ -33,12 +33,12 @@
             <div>
                 <div class="contenedor-form">
                 
-                <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">                                
+                <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" aria-hidden="true">                                
                 <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
                 <div id="modal_envio">
                     <!-- nuestro modal con html y css -->
-                    <h3 id="h3_modal_envio">Matrix ipsum modal</h3>
-                    <p id="p_modal_envio">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+                    <h3 id="h3_modal_envio">¡Mensaje enviado con éxito!</h3>
+                    <p id="p_modal_envio">Gracias por contactar con Emporium Digital. Hemos recibido tu consulta y te responderemos lo antes posible.</p>
                     <div class="boton" id="boton_modal_envio">Escribir otra consulta</div>
                 </div>
 
@@ -151,25 +151,25 @@
                 <ul>
                     <li>
                     <a href="tel:+34943123123" target="_blank">
-                        <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="" aria-hidden="true">
                         <span>943 123 123</span>
                     </a>
                     </li>
                     <li>
                     <a href="mailto:aranaz@webda.eus" target="_blank">
-                        <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="" aria-hidden="true">
                         <span>aranaz@webda.eus</span>
                     </a>
                     </li>
                     <li>
                     <a href="https://wa.me/628749350" target="_blank">
-                        <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="" aria-hidden="true">
                         <span>628 749 350</span>
                     </a>
                     </li>
                     <li>
                     <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                        <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="" aria-hidden="true">
                         <span>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia / San Sebastián, Gipuzkoa</span>
                     </a>
                     </li>
@@ -189,7 +189,7 @@
               <p>Respuestas a las preguntas más comunes sobre nuestros servicios.</p>
               <p>Trabajamos codo a codo contigo en cada fase del proyecto, desde la primera idea hasta la puesta en marcha. Nos adaptamos a tu presupuesto y a tus plazos, sin renunciar a la calidad ni al detalle. Si tienes dudas sobre cómo empezar, contáctanos y te asesoramos sin compromiso.</p>
             </div>
-            <img src="<?= asset('assets/img/views/fichaContacto.avif') ?>" alt="Personas en contacto">
+            <img src="<?= asset('assets/img/views/fichaContacto.avif') ?>" alt="Equipo de Emporium Digital resolviendo dudas de clientes" loading="lazy" width="600" height="600">
           </div>
           <div class="contenedor">
             <div class="ficha">

@@ -130,9 +130,18 @@
         }
 
     }
+}
 
-    
 
+.section--compact{
+    row-gap: 1rem;
+
+    @media only screen and (min-width:c.$tablet){
+        row-gap: 1.5rem;
+    }
+    @media only screen and (min-width:c.$desktop){
+        row-gap: 2rem;
+    }
 }
 
 
