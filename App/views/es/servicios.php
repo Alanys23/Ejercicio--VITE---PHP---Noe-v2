@@ -19,7 +19,7 @@
         <p class="header01__eyebrow">Servicios</p>
         <h1>Todo lo que necesita tu negocio para crecer</h1>
         <p class="header01__text">Lo que otros prometen, nosotros lo construimos. Cada línea de código escrita para tu negocio.</p>
-        <a href="#showroom-recursos" class="boton">Contáctanos</a>
+        <a href="/es/contacto" class="boton">Contáctanos</a>
       </div>
     </header>
 

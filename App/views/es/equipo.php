@@ -19,7 +19,7 @@
         <p class="header01__eyebrow">Equipo</p>
         <h1>Quiénes somos</h1>
         <p class="header01__text">No somos solo programadores; somos tu aliado estratégico para alcanzar la excelencia operativa.</p>
-        <a href="#showroom-recursos" class="boton">Contáctanos</a>
+        <a href="/es/contacto" class="boton">Contáctanos</a>
       </div>
     </header>
 

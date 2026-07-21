@@ -20,7 +20,7 @@
         <p class="header01__eyebrow">Estudio de Diseño de Software</p>
         <h1>Software a medida</h1>
         <p class="header01__text">Diseñamos, creamos , orientamos tus proyectos desde el momento 1</p>
-        <a href="#showroom-recursos" class="boton">Contáctanos</a>
+        <a href="/es/contacto" class="boton">Contáctanos</a>
       </div>
     </header>
 

@@ -19,7 +19,7 @@
         <p class="header01__eyebrow">Contacto</p>
         <h1>Contacta con nuestro Equipo</h1>
         <p class="header01__text">Estaremos encantados de conocer tu proyecto.</p>
-        <a href="#showroom-recursos" class="boton">Contáctanos</a>
+        <a href="/es/contacto" class="boton">Contáctanos</a>
       </div>
     </header>
 
