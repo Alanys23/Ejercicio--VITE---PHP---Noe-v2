@@ -20,7 +20,7 @@
         <p class="header01__eyebrow">Software diseinu estudioa</p>
         <h1>Softwarea neurrira</h1>
         <p class="header01__text">Zure proiektuak lehen unetik diseinatu, sortu eta gidatzen ditugu.</p>
-        <a href="/eu/kontaktua" class="boton" title="Jarri gurekin harremanetan">Jarri gurekin harremanetan</a>
+        <a href="<?= url('/eu/kontaktua') ?>" class="boton" title="Jarri gurekin harremanetan">Jarri gurekin harremanetan</a>
       </div>
     </header>
 
@@ -54,19 +54,19 @@
           </div>
 
           <div>
-            <a href="/eu/zerbitzuak" class="item" title="Ikusi plataforma anitzeko programazioa">
+            <a href="<?= url('/eu/zerbitzuak') ?>" class="item" title="Ikusi plataforma anitzeko programazioa">
               <h4>Plataforma anitzeko programazioa</h4>
               <p>Gailu guztietan ondo funtzionatzen duten web aplikazioak eta irtenbide digitalak garatzen ditugu.</p>
               <img src="<?= asset('assets/img/views/card1.avif') ?>" alt="Plataforma anitzeko programazio zerbitzua Emporium Digital-en" title="Plataforma anitzeko programazioa" width="700" height="700" loading="lazy">              
             </a>
 
-            <a href="/eu/zerbitzuak" class="item" title="Ikusi SEO posizionamendu zerbitzua">
+            <a href="<?= url('/eu/zerbitzuak') ?>" class="item" title="Ikusi SEO posizionamendu zerbitzua">
               <h4>SEO posizionamendu zerbitzua</h4>
               <p>Zure webgunea bilaketa-emaitzetan hobeto kokatzeko optimizatzen dugu.</p>
               <img src="<?= asset('assets/img/views/card3.avif') ?>" alt="SEO posizionamendu zerbitzua Emporium Digital-en" title="SEO posizionamendu zerbitzua" width="700" height="700" loading="lazy">
             </a>
             
-            <a href="/eu/zerbitzuak" class="item" title="Ikusi datuen kudeaketa eta ERP irtenbideak">
+            <a href="<?= url('/eu/zerbitzuak') ?>" class="item" title="Ikusi datuen kudeaketa eta ERP irtenbideak">
               <h4>Data-ERP</h4>
               <p>Datuak eta prozesuak modu zentralizatuan kudeatzeko irtenbide eraginkorrak sortzen ditugu.</p>
               <img src="<?= asset('assets/img/views/card2.avif') ?>" alt="Datuen kudeaketa eta ERP zerbitzua Emporium Digital-en" title="Datuen kudeaketa eta ERP irtenbideak" width="700" height="700" loading="lazy">

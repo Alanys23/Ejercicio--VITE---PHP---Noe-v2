@@ -5,28 +5,28 @@
 ?>
 <ul class="enlaces01">
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/es">
+    <a class="enlaces01__link" href="<?= url('/es') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/homenav.svg') ?>" alt="">
       <span>Inicio</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/es/contacto">
+    <a class="enlaces01__link" href="<?= url('/es/contacto') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/e-mailnav.svg') ?>" alt="">
       <span>Contacto</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/es/quienes-somos">
+    <a class="enlaces01__link" href="<?= url('/es/quienes-somos') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/personsnav.svg') ?>" alt="">
       <span>Quiénes somos</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/es/servicios">
+    <a class="enlaces01__link" href="<?= url('/es/servicios') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/cubenav-outline.svg') ?>" alt="">
       <span>Servicios</span>
     </a>
@@ -35,7 +35,7 @@
   <!-- Este item contiene un segundo nivel de navegación. -->
   <?php /*<li class="enlaces01__item enlaces01__item--hasSubmenu" data-nav01-submenu-item>
     <div class="enlaces01__submenuHeader">
-      <a class="enlaces01__link enlaces01__link--parent" href="/es/servicios">
+      <a class="enlaces01__link enlaces01__link--parent" href="<?= url('/es/servicios') ?>">
         <img class="enlaces01__icon" src="<?= asset('assets/img/icons/cubenav-outline.svg') ?>" alt="">
         <span>Servicios</span>
       </a> */ ?>
@@ -48,13 +48,13 @@
 
     <ul class="enlaces01__submenu" id="<?= e($idSubmenu) ?>" data-nav01-submenu>
       <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/es/servicios/pintor">
+        <a class="enlaces01__link enlaces01__link--child" href="<?= url('/es/servicios/pintor') ?>">
           <img class="enlaces01__icon" src="<?= asset('assets/img/icons/tag.svg') ?>" alt="">
           <span>Pintor</span>
         </a>
       </li>
       <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/es/servicios/restaurador-muebles">
+        <a class="enlaces01__link enlaces01__link--child" href="<?= url('/es/servicios/restaurador-muebles') ?>">
           <img class="enlaces01__icon" src="<?= asset('assets/img/icons/spark.svg') ?>" alt="">
           <span>Restaurador de muebles</span>
         </a>
@@ -64,7 +64,7 @@
 
   <?php /*
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/showroom">
+    <a class="enlaces01__link" href="<?= url('/showroom') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/grid.svg') ?>" alt="">
       <span>Showroom</span>
     </a>

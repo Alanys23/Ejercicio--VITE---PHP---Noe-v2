@@ -20,7 +20,7 @@
         <p class="header01__eyebrow">Taldea</p>
         <h1>Nor gara</h1>
         <p class="header01__text">Ez gara programatzaile hutsak; zure aliatu estrategikoa gara bikaintasun operazionala lortzeko.</p>
-        <a href="/eu/kontaktua" class="boton" title="Jarri gurekin harremanetan">Jarri gurekin harremanetan</a>
+        <a href="<?= url('/eu/kontaktua') ?>" class="boton" title="Jarri gurekin harremanetan">Jarri gurekin harremanetan</a>
       </div>
     </header>
 

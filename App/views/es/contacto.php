@@ -20,7 +20,7 @@
         <p class="header01__eyebrow">Contacto</p>
         <h1>Contacta con nuestro Equipo</h1>
         <p class="header01__text">Estaremos encantados de conocer tu proyecto.</p>
-        <a href="/es/contacto" class="boton">Contáctanos</a>
+        <a href="<?= url('/es/contacto') ?>" class="boton">Contáctanos</a>
       </div>
     </header>
 
@@ -43,7 +43,7 @@
                     <div class="boton" id="boton_modal_envio">Escribir otra consulta</div>
                 </div>
 
-                <form id="idForAjax" action="/app/artForm02" method="post">
+                <form id="idForAjax" action="<?= e(app_url('/app/artForm02')) ?>" method="post">
                     
                     <p class="error" id="errorForm02"></p>
 

@@ -4,7 +4,7 @@
 ?>
 <nav class="nav01" data-nav01>
   <div class="nav01__inner">
-    <a class="nav01__brand" href="/eu" aria-label="Hasierara joan">
+    <a class="nav01__brand" href="<?= url('/eu') ?>" aria-label="Hasierara joan">
       <span class="nav01__logo" aria-hidden="true">ED</span>
       <span class="nav01__brandText">Emporium Digital</span>
     </a>
@@ -26,7 +26,7 @@
 
         <div class="nav01__langs" aria-label="Hizkuntzak">
           <!-- Para mantener el ejemplo sencillo, cada idioma enlaza a su inicio. -->
-          <a class="nav01__lang" href="<?= e(ruta_homologa($url ?? null, 'es')) ?>" lang="es" hreflang="es">ES</a>
+          <a class="nav01__lang" href="<?= url(ruta_homologa($url ?? null, 'es')) ?>" lang="es" hreflang="es">ES</a>
           <a class="nav01__lang is-active" href="<?= e(ruta_homologa($url ?? null, 'eu')) ?>" lang="eu" hreflang="eu" aria-current="true">EU</a>
         </div>
       </div>

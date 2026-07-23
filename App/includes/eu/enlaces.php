@@ -6,28 +6,28 @@
 ?>
 <ul class="enlaces01">
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu" title="Joan hasierara">
+    <a class="enlaces01__link" href="<?= url('/eu') ?>" title="Joan hasierara">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/home.svg') ?>" alt="Hasierako ikonoa" title="Hasiera">
       <span>Hasiera</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu/kontaktua" title="Joan kontaktura">
+    <a class="enlaces01__link" href="<?= url('/eu/kontaktua') ?>" title="Joan kontaktura">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="Posta ikonoa" title="Kontaktua">
       <span>Kontaktua</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu/nortzuk-gara" title="Joan nor gara atalera">
+    <a class="enlaces01__link" href="<?= url('/eu/nortzuk-gara') ?>" title="Joan nor gara atalera">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/users.svg') ?>" alt="Pertsonen ikonoa" title="Nortzuk gara">
       <span>Nortzuk gara</span>
     </a>
   </li>
 
    <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/es/servicios">
+    <a class="enlaces01__link" href="<?= url('/eu/zerbitzuak') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/cubenav-outline.svg') ?>" alt="">
       <span>Zerbitzuak</span>
     </a>
@@ -38,7 +38,7 @@
   <?php /*
   <li class="enlaces01__item enlaces01__item--hasSubmenu" data-nav01-submenu-item>
     <div class="enlaces01__submenuHeader">
-      <a class="enlaces01__link enlaces01__link--parent" href="/eu/zerbitzuak" title="Joan zerbitzuetara">
+      <a class="enlaces01__link enlaces01__link--parent" href="<?= url('/eu/zerbitzuak') ?>" title="Joan zerbitzuetara">
         <img class="enlaces01__icon" src="<?= asset('assets/img/icons/boxes.svg') ?>" alt="Zerbitzuen ikonoa" title="Zerbitzuak">
         <span>Zerbitzuak</span>
       </a>
@@ -49,13 +49,13 @@
 
     <ul class="enlaces01__submenu" id="<?= e($idSubmenu) ?>" data-nav01-submenu>
       <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/eu/zerbitzuak/pintorea" title="Pintorea">
+        <a class="enlaces01__link enlaces01__link--child" href="<?= url('/eu/zerbitzuak/pintorea') ?>" title="Pintorea">
           <img class="enlaces01__icon" src="<?= asset('assets/img/icons/tag.svg') ?>" alt="Etiketaren ikonoa" title="Pintorea">
           <span>Pintorea</span>
         </a>
       </li>
       <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/eu/zerbitzuak/altzari-zaharberritzailea" title="Altzari zaharberritzailea">
+        <a class="enlaces01__link enlaces01__link--child" href="<?= url('/eu/zerbitzuak/altzari-zaharberritzailea') ?>" title="Altzari zaharberritzailea">
           <img class="enlaces01__icon" src="<?= asset('assets/img/icons/spark.svg') ?>" alt="Txinpartaren ikonoa" title="Altzari zaharberritzailea">
           <span>Altzari zaharberritzailea</span>
         </a>
@@ -66,7 +66,7 @@
 
    <?php /*
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/showroom" title="Joan showroom-era">
+    <a class="enlaces01__link" href="<?= url('/showroom') ?>" title="Joan showroom-era">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/grid.svg') ?>" alt="Sareta ikonoa" title="Showroom">
       <span>Showroom</span>
   </li> 
