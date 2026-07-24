@@ -7,21 +7,21 @@
 <ul class="enlaces01">
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="<?= url('/eu') ?>" title="Joan hasierara">
-      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/home.svg') ?>" alt="Hasierako ikonoa" title="Hasiera">
+      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/homenav.svg') ?>" alt="Hasierako ikonoa" title="Hasiera">
       <span>Hasiera</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="<?= url('/eu/kontaktua') ?>" title="Joan kontaktura">
-      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="Posta ikonoa" title="Kontaktua">
+      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/e-mailnav.svg') ?>" alt="Posta ikonoa" title="Kontaktua">
       <span>Kontaktua</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="<?= url('/eu/nortzuk-gara') ?>" title="Joan nor gara atalera">
-      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/users.svg') ?>" alt="Pertsonen ikonoa" title="Nortzuk gara">
+      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/personsnav.svg') ?>" alt="Pertsonen ikonoa" title="Nortzuk gara">
       <span>Nortzuk gara</span>
     </a>
   </li>
